@@ -29,33 +29,6 @@ var task = cron.schedule('* * * * *', () => {
     for (let i = 0; i < valArr.length; i++) {
       try {
         if (valArr[i].children[0].data === currentVersionName) {
-          /*let email = "받을 이메일 주소들";
-
-          let transporter = nodemailer.createTransport({
-            service: '보낼 smtp 서비스',
-            auth: {
-              user: '사용자 계정',
-              pass: '비밀번호'
-            }
-          });
-
-          let mailOptions = {
-            from: '보낼 이메일 주소',
-            to: email,
-            subject: '업데이트에 따른 앱 게시가 완료되었습니다.',
-            text: url
-          };
-
-          transporter.sendMail(mailOptions, function (error, info) {
-            if (error) {
-              console.error(error);
-            } else {
-              console.log('Email sent: ' + info.response);
-            }
-          });
-
-          transporter.close();*/
-
           // TODO : (masonljh) 여기서 서버 쪽 값 변경하도록 수정하면 됨
 
           console.log(packageName + ' is updated within 1 minute!');
