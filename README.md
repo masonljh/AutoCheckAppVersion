@@ -1,4 +1,4 @@
-# AutoUpdateAppVersion
+# AutoCheckAppVersion
 This is a tool that periodically checks to see if your app version of the Play Store is reflected.
 플레이스토어의 앱 버전이 반영이 되었는지 주기적으로 확인하는 툴입니다.
 
