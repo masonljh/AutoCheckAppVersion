@@ -1,0 +1,25 @@
+{
+  "name": "autoupdateappversion",
+  "version": "1.0.0",
+  "description": "앱 업데이트 감지",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masonljh/AutoUpdateAppVersion.git"
+  },
+  "author": "Jong-hyo Lee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/masonljh/AutoUpdateAppVersion/issues"
+  },
+  "homepage": "https://github.com/masonljh/AutoUpdateAppVersion#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "node-cron": "^2.0.3",
+    "nodemailer": "^4.6.8",
+    "request": "^2.88.0"
+  }
+}
