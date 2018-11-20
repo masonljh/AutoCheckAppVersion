@@ -1,6 +1,6 @@
 # AutoCheckAppVersion
 This is a tool that periodically checks to see if your app version of the Play Store is reflected.<br>
-플레이스토어의 앱 버전이 반영이 되었는지 주기적으로 확인하는 툴입니다.
+플레이스토어의 앱 버전이 반영이 되었는지 1분마다 확인하는 툴입니다.
 
 1. Install Node.js (pass if it is installed)<br>
    Node.js를 설치합니다.(설치되어 있을 경우 패스)
