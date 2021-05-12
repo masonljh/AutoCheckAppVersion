@@ -19,7 +19,7 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
     "node-cron": "^2.0.3",
-    "nodemailer": "^4.6.8",
+    "nodemailer": "^6.4.16",
     "request": "^2.88.0"
   }
 }
